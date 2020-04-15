@@ -1,0 +1,40 @@
+{
+  "title": "安装 istio",
+  "icon": "fa-istio",
+  "description": "介绍使用 istioctl 安装 istio 的方法",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "authenticated": false,
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - 检查 Kubernetes 集群",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - 下载 istio",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - 快速开始",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - 简单运行 Bookinfo 示例",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}
