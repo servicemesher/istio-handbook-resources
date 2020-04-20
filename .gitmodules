@@ -1,0 +1,3 @@
+[submodule "code/practice/enhance-tracing"]
+	path = code/practice/enhance-tracing
+	url = git@github.com:zhaohuabing/istio-opentracing-demo.git
