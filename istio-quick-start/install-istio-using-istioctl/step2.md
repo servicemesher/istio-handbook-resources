@@ -8,16 +8,16 @@
 
 `curl -L https://raw.githubusercontent.com/istio/istio/release-1.5/release/downloadIstioCandidate.sh | sh -`{{execute}}
 
-下载的 istio 包名为 `istio-1.5.1`，包含：
+下载的 istio 包名为 `istio-1.5.*`(istio 1.5 的最新版本)，包含：
 - `install/kubernetes`：包含 Kubernetes 相关的 YAML 安装文件。
 - `examples/`：包含示例应用程序。
 - `bin/`：包含 istioctl 的客户端文件。
 
 切换到 istio 包所在目录：
-`cd istio-1.5.1`{{execute}}
+`cd istio-1.5.*/`{{execute}}
 
 使用如下命令将 `istioctl` 客户端路径加入 $PATH 中：
-`export PATH=$PATH:/root/istio-1.5.1/bin`{{execute}}
+`export PATH=$PATH:$(pwd)/bin`{{execute}}
 
 截止目前，我们已经可以使用高度自定义 Istio 控制平面和数据平面的 `istioctl` 命令行工具。 该命令行工具具有用户输入校验功能，可以防止错误的安装和自定义选项。
 
