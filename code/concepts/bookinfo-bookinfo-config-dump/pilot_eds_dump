@@ -1,0 +1,2959 @@
+[
+{
+  "clusterName": "outbound|15032||istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15032
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15020||istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15020
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9080_._.details.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.13",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://details-v1-c5b5f496d-bxs7z.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15004_._.istio-telemetry.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.3",
+                "portValue": 15004
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-telemetry-fc488f958-7mpsx.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9091_._.istio-telemetry.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.3",
+                "portValue": 9091
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-telemetry-fc488f958-7mpsx.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9411_._.zipkin.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 9411
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.14267_._.jaeger-collector.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 14267
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9153_._.kube-dns.kube-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.88.0.3",
+                "portValue": 9153
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://coredns-fb8b8dccf-zftvx.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        },
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.88.0.4",
+                "portValue": 9153
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://coredns-fb8b8dccf-rdtkl.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 2
+    }
+  ]
+},
+{
+  "clusterName": "outbound|443||istio-egressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.2",
+                "portValue": 443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-egressgateway-75cb89bd7f-knpm8.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|80||istio-egressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.2",
+                "portValue": 80
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-egressgateway-75cb89bd7f-knpm8.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15014||istio-policy.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.8",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-policy-9f78db4cb-52xmz.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9091||istio-policy.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.8",
+                "portValue": 9091
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-policy-9f78db4cb-52xmz.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15029_._.istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15029
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.53_._.kube-dns.kube-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.88.0.3",
+                "portValue": 53
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://coredns-fb8b8dccf-zftvx.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        },
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.88.0.4",
+                "portValue": 53
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://coredns-fb8b8dccf-rdtkl.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 2
+    }
+  ]
+},
+{
+  "clusterName": "outbound|14268||jaeger-collector.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 14268
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15004||istio-policy.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.8",
+                "portValue": 15004
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-policy-9f78db4cb-52xmz.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.8080_._.istio-pilot.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.6",
+                "portValue": 8080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-pilot-678b45584b-nnmbm.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.443_._.istio-galley.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.10",
+                "portValue": 9443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-galley-5bcd89bd9c-52rgh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9090_._.prometheus.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.11",
+                "portValue": 9090
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://prometheus-586d4445c7-crjp4.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9080||details.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.13",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://details-v1-c5b5f496d-bxs7z.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|3000||grafana.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.7",
+                "portValue": 3000
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://grafana-5f798469fd-sss4g.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9901||istio-galley.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.10",
+                "portValue": 9901
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-galley-5bcd89bd9c-52rgh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.443_._.istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.443_._.istio-sidecar-injector.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.12",
+                "portValue": 9443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-sidecar-injector-7d65c79dd5-xrlbh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15004_._.istio-policy.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.8",
+                "portValue": 15004
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-policy-9f78db4cb-52xmz.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.80_._.tracing.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 16686
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9411||zipkin.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 9411
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9090||prometheus.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.11",
+                "portValue": 9090
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://prometheus-586d4445c7-crjp4.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15014_._.istio-policy.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.8",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-policy-9f78db4cb-52xmz.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15014||istio-galley.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.10",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-galley-5bcd89bd9c-52rgh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|443||istio-galley.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.10",
+                "portValue": 9443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-galley-5bcd89bd9c-52rgh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|443||kubernetes.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "172.17.0.19",
+                "portValue": 6443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://kube-scheduler-master.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15030_._.istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15030
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|14250||jaeger-collector.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 14250
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|14267||jaeger-collector.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 14267
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9091_._.istio-policy.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.8",
+                "portValue": 9091
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-policy-9f78db4cb-52xmz.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.14268_._.jaeger-collector.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 14268
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15014||istio-telemetry.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.3",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-telemetry-fc488f958-7mpsx.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15004||istio-telemetry.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.3",
+                "portValue": 15004
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-telemetry-fc488f958-7mpsx.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15014||istio-pilot.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.6",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-pilot-678b45584b-nnmbm.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15029||istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15029
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15019||istio-galley.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.10",
+                "portValue": 15019
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-galley-5bcd89bd9c-52rgh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.443_._.istio-egressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.2",
+                "portValue": 443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-egressgateway-75cb89bd7f-knpm8.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.16686_._.jaeger-query.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 16686
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.14250_._.jaeger-collector.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 14250
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9080||ratings.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.15",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://ratings-v1-f745cf57b-wv5ts.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15011||istio-pilot.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.6",
+                "portValue": 15011
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-pilot-678b45584b-nnmbm.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15030||istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15030
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15032_._.istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15032
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.80_._.istio-egressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.2",
+                "portValue": 80
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-egressgateway-75cb89bd7f-knpm8.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15019_._.istio-galley.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.10",
+                "portValue": 15019
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-galley-5bcd89bd9c-52rgh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|42422||istio-telemetry.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.3",
+                "portValue": 42422
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-telemetry-fc488f958-7mpsx.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15443||istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15014_._.istio-telemetry.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.3",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-telemetry-fc488f958-7mpsx.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15443_._.istio-egressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.2",
+                "portValue": 15443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-egressgateway-75cb89bd7f-knpm8.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15014_._.istio-galley.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.10",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-galley-5bcd89bd9c-52rgh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.8060_._.istio-citadel.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.9",
+                "portValue": 8060
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-citadel-6dc789bc4c-bjgh5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.443_._.kubernetes.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "172.17.0.19",
+                "portValue": 6443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://kube-scheduler-master.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9080_._.productpage.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.18",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://productpage-v1-c7765c886-j8dlw.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15031_._.istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15031
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15443||istio-egressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.2",
+                "portValue": 15443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-egressgateway-75cb89bd7f-knpm8.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|443||istio-sidecar-injector.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.12",
+                "portValue": 9443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-sidecar-injector-7d65c79dd5-xrlbh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|20001||kiali.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.4",
+                "portValue": 20001
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://kiali-7964898d8c-p6mvr.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|16686||jaeger-query.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 16686
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|8080||istio-pilot.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.6",
+                "portValue": 8080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-pilot-678b45584b-nnmbm.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|80||tracing.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.1",
+                "portValue": 16686
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-tracing-cd67ddf8-wkkcq.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9080_._.ratings.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.15",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://ratings-v1-f745cf57b-wv5ts.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15014_._.istio-pilot.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.6",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-pilot-678b45584b-nnmbm.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15011_._.istio-pilot.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.6",
+                "portValue": 15011
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-pilot-678b45584b-nnmbm.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15443_._.istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.20001_._.kiali.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.4",
+                "portValue": 20001
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://kiali-7964898d8c-p6mvr.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9080||productpage.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.18",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://productpage-v1-c7765c886-j8dlw.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|53||kube-dns.kube-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.88.0.3",
+                "portValue": 53
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://coredns-fb8b8dccf-zftvx.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        },
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.88.0.4",
+                "portValue": 53
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://coredns-fb8b8dccf-rdtkl.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 2
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9080_._.reviews.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.14",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://reviews-v1-75b979578c-pw8zs.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        },
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.16",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://reviews-v3-54c6c64795-wbls7.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        },
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.17",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://reviews-v2-597bf96c8f-l2fp8.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 3
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.3000_._.grafana.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.7",
+                "portValue": 3000
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://grafana-5f798469fd-sss4g.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9091||istio-telemetry.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.3",
+                "portValue": 9091
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-telemetry-fc488f958-7mpsx.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15014||istio-citadel.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.9",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-citadel-6dc789bc4c-bjgh5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|8060||istio-citadel.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.9",
+                "portValue": 8060
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-citadel-6dc789bc4c-bjgh5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.80_._.istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 80
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15031||istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15031
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15010_._.istio-pilot.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.6",
+                "portValue": 15010
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-pilot-678b45584b-nnmbm.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15020_._.istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 15020
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9080||reviews.default.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.14",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://reviews-v1-75b979578c-pw8zs.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        },
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.16",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://reviews-v3-54c6c64795-wbls7.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        },
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.17",
+                "portValue": 9080
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "istio"
+                },
+              "istio": {
+                  "uid": "kubernetes://reviews-v2-597bf96c8f-l2fp8.default"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 3
+    }
+  ]
+},
+{
+  "clusterName": "outbound|15010||istio-pilot.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.6",
+                "portValue": 15010
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-pilot-678b45584b-nnmbm.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|443||istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 443
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|80||istio-ingressgateway.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.5",
+                "portValue": 80
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-ingressgateway-7d6b9b5ffc-2r8b5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.42422_._.istio-telemetry.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.3",
+                "portValue": 42422
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-telemetry-fc488f958-7mpsx.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.9901_._.istio-galley.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.10",
+                "portValue": 9901
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-galley-5bcd89bd9c-52rgh.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound_.15014_._.istio-citadel.istio-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.40.0.9",
+                "portValue": 15014
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://istio-citadel-6dc789bc4c-bjgh5.istio-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 1
+    }
+  ]
+},
+{
+  "clusterName": "outbound|9153||kube-dns.kube-system.svc.cluster.local",
+  "endpoints": [
+    {
+      "lbEndpoints": [
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.88.0.3",
+                "portValue": 9153
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://coredns-fb8b8dccf-zftvx.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        },
+        {
+          "endpoint": {
+            "address": {
+              "socketAddress": {
+                "address": "10.88.0.4",
+                "portValue": 9153
+              }
+            }
+          },
+          "metadata": {
+            "filterMetadata": {
+              "envoy.transport_socket_match": {
+                  "tlsMode": "disabled"
+                },
+              "istio": {
+                  "uid": "kubernetes://coredns-fb8b8dccf-rdtkl.kube-system"
+                }
+            }
+          },
+          "loadBalancingWeight": 1
+        }
+      ],
+      "loadBalancingWeight": 2
+    }
+  ]
+}]
