@@ -6,15 +6,15 @@
 
 使用如下命令来下载 istio：
 
-`curl -L https://raw.githubusercontent.com/istio/istio/release-1.5/release/downloadIstioCandidate.sh | sh -`{{execute}}
+`curl -L https://istio.io/downloadIstio | sh -`{{execute}}
 
-下载的 istio 包名为 `istio-1.5.*`(istio 1.5 的最新版本)，包含：
+下载的 istio 包名为 `istio-1.6.*`(istio 1.6 的最新版本)，包含：
 - `install/kubernetes`：包含 Kubernetes 相关的 YAML 安装文件。
 - `examples/`：包含示例应用程序。
 - `bin/`：包含 istioctl 的客户端文件。
 
 切换到 istio 包所在目录：
-`cd istio-1.5.*/`{{execute}}
+`cd istio-*/`{{execute}}
 
 使用如下命令将 `istioctl` 客户端路径加入 $PATH 中：
 `export PATH=$PATH:$(pwd)/bin`{{execute}}
